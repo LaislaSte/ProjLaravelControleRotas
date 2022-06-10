@@ -1,10 +1,7 @@
-<?php
+git <?php
 
-<<<<<<< HEAD
-=======
 use App\Models\Produto;
 use Illuminate\Http\Request;
->>>>>>> 01eb9aebcaac72c7e52ba720253ff26be9e79bf9
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,16 +14,15 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+/*
 Route::get('/', function () {
     return view('welcome');
 });
-<<<<<<< HEAD
+
 Route::get('minhaprimeiraview', function () {
     return view('segundaview');
 });
-=======
-
+*/
 Route::post('/cadastrar-produto', function(Request $request){
 	
     Produto::create([
@@ -37,4 +33,3 @@ Route::post('/cadastrar-produto', function(Request $request){
 
     echo "Produto criado com sucesso!";
 });
->>>>>>> 01eb9aebcaac72c7e52ba720253ff26be9e79bf9
